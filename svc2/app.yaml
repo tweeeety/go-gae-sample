@@ -1,0 +1,7 @@
+runtime: go111
+
+service: svc2
+
+handlers:
+- url: /.*
+  script: auto
